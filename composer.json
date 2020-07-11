@@ -1,0 +1,17 @@
+{
+    "name": "rkadam01/hello-composer",
+    "description": "This is a test composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rahul Kadam",
+            "email": "rkadam01@xento.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"rkadam01\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
